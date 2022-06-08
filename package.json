@@ -33,7 +33,7 @@
     "format": "prettier --write \"src/**/*.{js,jsx}\"",
     "lint": "eslint \"src/**/*.{ts,tsx}\" --quiet --fix",
     "dev": "parcel src/index.html --dist-dir ./build/",
-    "build": "npm run lint && parcel build src/index.html --dist-dir ./build/ "
+    "build": "parcel build src/index.html --dist-dir ./build/ "
   },
   "keywords": [],
   "author": "Angel aka (A.M)",
