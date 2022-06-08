@@ -1,5 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom";
+import Attr from "./compoenets/attr";
 import BalanceCard from "./compoenets/BalanceCard";
 import MainCard from "./compoenets/MainCard";
 
@@ -12,6 +13,7 @@ const App = () => {
           <MainCard />
         </div>
       </div>
+      <Attr />
     </div>
   );
 };
