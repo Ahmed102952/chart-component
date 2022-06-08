@@ -2,7 +2,7 @@ import React from "react";
 
 const Attr = () => {
   return (
-    <div className="attribution absolute left-1/2 bottom-4 -translate-x-1/2">
+    <div className="attribution w-full absolute left-1/2 bottom-2 -translate-x-1/2">
       Challenge by{" "}
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">
         Frontend Mentor
